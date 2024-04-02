@@ -1,0 +1,120 @@
+
+
+h1{
+    text-align: left;
+    color: whitesmoke;
+    font-size: 40px;
+    display: flex;
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-color: bisque;
+    border: 40px;
+
+}
+
+nav{
+    display: flex;
+    background: url("../img/radishandtomato.png");
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+h5{
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    border-style: double;
+    border-width: 4px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 40px;
+    border-color: black;
+    justify-content: space-around;
+    margin: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.mainlab {
+
+    display: flex;
+    background: whitesmoke;
+    background-repeat: repeat;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+
+.blogoneclicker{
+    border-radius: 45%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(246, 238, 238);
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border: 2px solid wheat;
+ }
+ 
+ 
+ .blogtwoclicker{
+    border-radius: 45%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(246, 238, 238);
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border: 2px solid wheat;
+ }
+ 
+ 
+ .blogthreeclicker{
+    border-radius: 45%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(246, 238, 238);
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border: 2px solid wheat;
+
+ }
+

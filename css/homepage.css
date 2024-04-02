@@ -1,0 +1,199 @@
+
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+        font-family: "EB Garamond", serif;
+        font-optical-sizing: auto;
+        font-weight: 50;
+        font-style: normal;
+        
+
+}
+
+
+nav{
+    display: flex; 
+    background-color: whitesmoke;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1x;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    border: 2px solid wheat;
+   
+}
+ h5{
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    background-color: whitesmoke;
+ 
+
+
+    display: flex;
+    flex-direction: row;
+    border-style: double;
+    border-width: 4px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-color: wheat;
+    justify-content: space-around;
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+
+ }
+
+
+
+.introblock{
+    display: flex;
+    background: url("../img/floralpaper.png");
+    opacity: 0.8;
+    background-repeat: repeat;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+   
+}
+
+.blogonepic{
+    border-radius: 45%;
+    background: url("../img/editedjoans.png");
+    opacity: 0.7;
+    background-position: 10%;
+    background-size: 300%;
+    display: flex; 
+    justify-content: space-between;
+    background-color: rgb(246, 238, 238);
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border: 2px solid wheat; 
+}
+
+.blogtwopic{
+    border-radius: 45%;
+    display: flex; 
+    justify-content: space-between;
+    background: url("../img/Screen\ Shot\ 2024-04-01\ at\ 8.04.43\ PM.png");
+    background-position: 0%;
+    opacity: 0.6;
+    background-color: rgb(246, 238, 238);
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border: 2px solid wheat; 
+}
+
+.blogthreepic{
+    border-radius: 45%;
+    display: flex; 
+    justify-content: space-between;
+    background: url("../img/threeee-2.png");
+    background-position: 45% 55%;
+    opacity: 0.6;
+    background-color: rgb(246, 238, 238);
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border: 2px solid wheat; 
+}
+
+
+
+h4{
+    color: black;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    background-color: beige;
+    font-size: 30px;
+    border-radius: 20%;
+
+}
+
+
+h3{
+    color: black;
+    font-family: "Indie Flower", cursive;
+    font-weight:bold;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+
+    
+
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+
+
+h2{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+footer{
+    display: flex; 
+    justify-content: space-between;
+    background-color: whitesmoke;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border: 2px solid rgb(255, 253, 199); 
+}
+
+
+
