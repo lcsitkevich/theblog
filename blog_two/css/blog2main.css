@@ -1,5 +1,160 @@
 
 
-h1 {
-    text-align: center;
+h1{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: solid ;
+    border-width: 8px;
+    border-color: rgb(253, 253, 253);
+    font-size: 40px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 50;
+    font-style: normal;
+
+}
+
+nav{
+    display: flex;
+    background: url("../img/eggscreenshot20.png");
+    background-position: 10%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+h5 {
+    text-align: left;
+    color: black;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 40px;
+    border-color: black;
+    justify-content: space-around;
+    margin: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    font-size: 15px;
+        font-family: "EB Garamond", serif;
+        font-optical-sizing: auto;
+        font-weight: 50;
+        font-style: normal;
+
+}
+
+.secondlab {
+
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+
+
+h6{
+    color: rgb(0, 0, 0);
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    border-radius: 40%;
+
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+   }
+
+
+
+
+.blogoneclicker{
+    border-radius: 10%;
+    display: flex; 
+    justify-content: space-between;
+    background-color: wheat;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border: 2px solid wheat; 
+}
+
+.blogtwoclicker{
+    border-radius: 10%;
+    display: flex; 
+    justify-content: space-between;
+    background-color: wheat;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border: 2px solid wheat; 
+}
+
+.blogthreeclicker{
+    border-radius: 10%;
+    display: flex; 
+    justify-content: space-between;
+    background-color: wheat;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    border: 2px solid wheat;
+
+ }
+
+ footer{
+    display: flex; 
+    justify-content: space-between;
+    background-image: url("../img/lilahtoast.png");
+
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+
 }

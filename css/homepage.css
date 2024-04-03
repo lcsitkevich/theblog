@@ -2,7 +2,7 @@
 
 h1{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 40px;
         font-family: "EB Garamond", serif;
         font-optical-sizing: auto;
@@ -15,7 +15,7 @@ h1{
 
 nav{
     display: flex; 
-    background-color: whitesmoke;
+    background-color: rgb(0, 0, 0);
     flex-direction: column;
     justify-content: left;
     padding-left: 20px;
@@ -45,10 +45,10 @@ nav{
     border-color: wheat;
     justify-content: space-around;
     margin: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
@@ -62,7 +62,7 @@ nav{
 
 .introblock{
     display: flex;
-    background: url("../img/floralpaper.png");
+    background: url("../img/lilahtoast.png");
     opacity: 0.8;
     background-repeat: repeat;
     margin-top: 0px;
@@ -75,19 +75,36 @@ nav{
     padding-top: 5px;
     padding-bottom: 5px;
     border-left: 2px solid black;
+    border-bottom: 2px solid black;
     border-right: 2px solid black;
    
 }
 
-.blogonepic{
-    border-radius: 45%;
-    background: url("../img/editedjoans.png");
-    opacity: 0.7;
-    background-position: 10%;
-    background-size: 300%;
+section{
     display: flex; 
     justify-content: space-between;
-    background-color: rgb(246, 238, 238);
+    background-color: whitesmoke;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: wheat;
+
+}
+
+
+
+.blogonepic{
+    border-radius: 10%;
+    display: flex; 
+    justify-content: space-between;
+    background-color: whitesmoke;
     flex-direction: row;
     padding-top: 20px;
     padding-bottom: 25px;
@@ -98,13 +115,10 @@ nav{
 }
 
 .blogtwopic{
-    border-radius: 45%;
+    border-radius: 10%;
     display: flex; 
     justify-content: space-between;
-    background: url("../img/Screen\ Shot\ 2024-04-01\ at\ 8.04.43\ PM.png");
-    background-position: 0%;
-    opacity: 0.6;
-    background-color: rgb(246, 238, 238);
+    background-color: whitesmoke;
     flex-direction: row;
     padding-top: 20px;
     padding-bottom: 25px;
@@ -115,33 +129,35 @@ nav{
 }
 
 .blogthreepic{
-    border-radius: 45%;
+    border-radius: 10%;
     display: flex; 
     justify-content: space-between;
-    background: url("../img/threeee-2.png");
-    background-position: 45% 55%;
-    opacity: 0.6;
-    background-color: rgb(246, 238, 238);
+    background-color: whitesmoke;
     flex-direction: row;
     padding-top: 20px;
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 20px;
-    border: 2px solid wheat; 
+    border: 2px solid wheat;
 }
 
-
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: wheat;
+    border-radius: 10%;
+   }
+   
 
 h4{
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
     display: flex;
-    background-color: beige;
+    background-color: whitesmoke;
     font-size: 30px;
-    border-radius: 20%;
+    border-radius: 40%;
 
 }
 
@@ -160,15 +176,12 @@ h3{
 }
 
 
-section {
+footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
 }
-
-
-
 
 
 h2{
@@ -180,20 +193,6 @@ h2{
     color: rgb(0, 0, 0);
 }
 
-
-
-footer{
-    display: flex; 
-    justify-content: space-between;
-    background-color: whitesmoke;
-    flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 20px;
-    border: 2px solid rgb(255, 253, 199); 
-}
 
 
 
