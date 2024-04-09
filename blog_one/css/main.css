@@ -82,10 +82,12 @@ h5{
 }
 
 h6{
-    color: rgb(0, 0, 0);
-    font-family: "Indie Flower", cursive;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 15px;
+        font-family: "EB Garamond", serif;
+        font-optical-sizing: auto;
+        font-weight: 50;
+        font-style: normal;
+        color:black;
     display: flex;
     flex-direction: row;
     font-size: 20px;
@@ -97,6 +99,8 @@ a:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
     border-radius: 10%;
+    text-decoration-color: rgb(253, 4, 4);
+
    }
 
 
@@ -104,42 +108,42 @@ a:hover {
     border-radius: 10%;
     display: flex; 
     justify-content: space-between;
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
     flex-direction: row;
     padding-top: 20px;
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 20px;
-    border: 2px solid wheat; 
+    border: 2px solid rgb(0, 0, 0); 
 }
 
 .blogtwoclicker{
     border-radius: 10%;
     display: flex; 
     justify-content: space-between;
-    background-color: wheat;
+    background-color: rgb(255, 254, 254);
     flex-direction: row;
     padding-top: 20px;
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 20px;
-    border: 2px solid wheat; 
+    border: 2px solid rgb(0, 0, 0); 
 }
 
 .blogthreeclicker{
     border-radius: 10%;
     display: flex; 
     justify-content: space-between;
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
     flex-direction: row;
     padding-top: 20px;
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 20px;
-    border: 2px solid wheat;
+    border: 2px solid rgb(0, 0, 0);
 
  }
 
